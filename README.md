@@ -1,5 +1,9 @@
 # AMS
-Data Science Project
+Data Science Project for SDS 3386 
+
+### Team Members
+Alex Wyatt, Mariane Modena, Shawn Pokharel
+
 
 ## Setup the Scraper
 First Clone this repo to the desired path 
@@ -42,3 +46,7 @@ Console Output Will Print a list of tweet contents. (Can be removed line 18/19)
 
 ## Jupiter Note BooK Data Analysis
 Once you have the csv file. You can open Jupiter Notebook and Begin data analyzing! :grinning:
+
+## Deactivate Virtual Env 
+If you are looking to deactivate Virtual Enviornment
+```(venv) PS C:\Users\sanch\Desktop\Scraper\AMS>deactivate```
