@@ -50,3 +50,33 @@ Once you have the csv file. You can open Jupiter Notebook and Begin data analyzi
 ## Deactivate Virtual Env 
 If you are looking to deactivate Virtual Enviornment
 ```(venv) PS C:\Users\sanch\Desktop\Scraper\AMS>deactivate```
+
+# Snscraper
+Link to Scraper Module 
+https://github.com/JustAnotherArchivist/snscrape
+
+## Attributes we can scrape from Tweet Object 
+Attribute Description leftt blank if purpose unknown
+
+```
+url: Permalink pointing to tweet location
+date: Date tweet was created
+content: Text content of tweet
+renderedContent: Appears to also be text content of tweet
+id: Id of tweet
+user: User object containing the following data: usemame, displayname, id, description, descriptionUr, verified, created, followersCount, friendsCount,
+statusesCount, favouritesCount, listedCount, mediaCount, location, protected, linkUr, profilelmageUr|, profileBannerUrl
+outlinks
+tcooutlinks
+‘replyCount: Count of replies
+retweetCount: Count of retweets
+ikeCount: Count of likes
+quoteCount: Count of users that quoted the tweet and replied
+conversationid: Appears to be the same as tweet Id
+lang: Machine generated, assumed language of tweet
+source: Where tweet was posted from, ex: IPhone, Android, etc.
+media: Media object, containing previewUr, full, and type.
+retweetedTweet: Ifis a retweet, id of original tweet
+quotedTweet: IFis a quoted tweet, id of original tweet
+mentionedUsers: User objects of any mentioned user in tweet
+```
