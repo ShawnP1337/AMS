@@ -45,7 +45,7 @@ def scrapeIt(filename, searchPhrase, datestart, dateend):
 def main():
     count = 0
     tasks = []
-    # we gather all tweets a week at a time, running concurrently as out issue is with IO and this allows more IO requestion and should speed up processing
+    # we gather all tweets three days at a time, running concurrently as out issue is with IO and this allows more IO requestion and should speed up processing
     for day in iterateDate(date(2022,1,1), date(2022,7,1)):
 
         tasks.append(threading.Thread(target=scrapeIt, args = ("housingcrisis" + str(count), "housing crisis", day[0].strftime("%Y-%m-%d"), day[1].strftime("%Y-%m-%d"))))
