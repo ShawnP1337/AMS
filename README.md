@@ -36,7 +36,7 @@ Once the Virtual Enviornment is Activated install the Libraries we will be worki
 More Libraries may be need to installed later. 
 
 ## Run Scraper
-```(venv) PS C:\Users\sanch\Desktop\Scraper\AMS> python scripts.py```
+```(venv) PS C:\Users\sanch\Desktop\Scraper\AMS> python scraper.py```
 
 You should see a tweets.csv generated. 
 
