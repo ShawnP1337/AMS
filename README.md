@@ -24,6 +24,8 @@ Once the Virtual Enviornment is Created, directory should look something like th
 
 When your virual enviornment is activated, your command line should look something like this. 
 
+* to activate try ``` source Scripts/activate ```
+
 ![image](https://user-images.githubusercontent.com/52176354/196793360-fc1e043a-7251-4aa7-871f-22f407c25c61.png)
 
 ## Install The Needed Libraries 
