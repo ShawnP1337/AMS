@@ -48,7 +48,7 @@ def main():
     # we gather all tweets three days at a time, running concurrently as out issue is with IO and this allows more IO requestion and should speed up processing
     for day in iterateDate(date(2022,1,1), date(2022,7,1)):
 
-        tasks.append(threading.Thread(target=scrapeIt, args = ("housingcrisis" + str(count), "housing crisis", day[0].strftime("%Y-%m-%d"), day[1].strftime("%Y-%m-%d"))))
+        tasks.append(threading.Thread(target=scrapeIt, args = ("housingcrisisCAD" + str(count), "housing crisis canada", day[0].strftime("%Y-%m-%d"), day[1].strftime("%Y-%m-%d"))))
         tasks[-1].start()
         count += 1
     
