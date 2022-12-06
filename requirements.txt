@@ -3,6 +3,3 @@ bokeh
 hvplot
 jupyter
 pandas
-numpy
-altair
-jupyter_bokeh

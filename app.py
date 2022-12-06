@@ -3,8 +3,9 @@ from panel.interact import interact
 import hvplot.pandas
 import pandas as pd
 
+dtypes = {'period':'object','compound_score':'float','topic':'object','likes':'float','retweets':'float','Positive Sentiment':'int64','Negative Sentiment':'int64','Neutral Sentiment':'int64'}
 
-df_mean_compound_score = pd.read_csv("https://storage.googleapis.com/sentiment_bucket_ams/AMS_Twitter_Data/output.csv")
+df_mean_compound_score = pd.read_csv("https://storage.googleapis.com/sentiment_bucket_ams/AMS_Twitter_Data/CleanOutput.csv", dtype=dtypes)
 
 symbols = list(df_mean_compound_score.topic.unique())
 
@@ -70,11 +71,6 @@ def build_dashboard():
     return template
 
 
-if __name__.startswith("bokeh"):
-    # start with panel serve script.py
-    dashboard = build_dashboard()
-    dashboard.servable()
-if __name__ == "__main__":
-    # start with python script.py
-    dashboard = build_dashboard()
-    dashboard.show(port=5006)
+
+dashboard = build_dashboard()
+dashboard.servable()
