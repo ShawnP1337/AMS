@@ -6,3 +6,9 @@ dependencies:
 - panel=0.14
 - jupyter=1.00
 
+channels:
+- pyviz
+
+packages:
+- jupyter-panel-proxy
+
