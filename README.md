@@ -1,10 +1,10 @@
-# AMS
+# AMS Senitment Analysis
 Data Science Project for SDS 3386 
 
 ### Team Members
 Alex Wyatt, Mariane Modena, Shawn Pokharel
 
-
+# Single Process Scraper
 ## Setup the Scraper
 First Clone this repo to the desired path 
 
@@ -82,3 +82,16 @@ retweetedTweet: Ifis a retweet, id of original tweet
 quotedTweet: IFis a quoted tweet, id of original tweet
 mentionedUsers: User objects of any mentioned user in tweet
 ```
+# Parallel Processing Scraper C++ 
+See twitter_data_cleaning_code_c++
+
+# Vader Setniment Analysis
+https://github.com/cjhutto/vaderSentiment
+
+# Panel Dashboard
+https://ams-panel-dashboard.ue.r.appspot.com/app
+
+## To run locally 
+Download repo, open terminal, go into repo directory on terminal and run ```panel serve app ```
+Should serve on localhost
+![image](https://user-images.githubusercontent.com/52176354/206077365-97495d8a-b258-4e36-8f49-e91f9dfe4636.png)
