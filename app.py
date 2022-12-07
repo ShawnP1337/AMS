@@ -5,7 +5,7 @@ import pandas as pd
 
 dtypes = {'period':'object','compound_score':'float','topic':'object','likes':'float','retweets':'float','Positive Sentiment':'int64','Negative Sentiment':'int64','Neutral Sentiment':'int64'}
 
-df_mean_compound_score = pd.read_csv("https://storage.googleapis.com/sentiment_bucket_ams/AMS_Twitter_Data/CleanOutput.csv", dtype=dtypes)
+df_mean_compound_score = pd.read_csv("https://storage.googleapis.com/sentiment_bucket_ams/AMS_Twitter_Data/output.csv", dtype=dtypes)
 
 symbols = list(df_mean_compound_score.topic.unique())
 
