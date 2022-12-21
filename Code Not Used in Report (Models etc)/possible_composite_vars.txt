@@ -1,0 +1,17 @@
+Groupings
+
+foreign_buyer_ban
+housing_crisis
+
+interest_rate_home
+Generational_Wealth
+
+increase_of_prices
+social_assistance
+
+minimum_wage
+cost_of_living
+
+
+
+pd.concat((), axis = 0).reset_index()

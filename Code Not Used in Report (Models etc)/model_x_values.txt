@@ -1,0 +1,12 @@
+included in model
+
+increase_of_prices
+social_assistance
+generational_wealth and interest_rate_homef (which is combo of both interest rate home vars) composite
+home_owner
+rental_market
+
+standard_of_living - NOPE
+
+
+
